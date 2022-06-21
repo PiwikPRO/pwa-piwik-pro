@@ -1,0 +1,26 @@
+{
+  "name": "@piwikpro/pwa-piwik-pro",
+  "version": "1.0.1",
+  "description": "Piwik PRO Progressive Web Applications integration",
+  "main": "dist/piwikpro-pwa-piwik-pro.cjs.js",
+  "module": "dist/piwikpro-pwa-piwik-pro.esm.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollpkg build",
+    "watch": "rollpkg watch",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {},
+  "dependencies": {
+    "workbox-background-sync": "^6.5.3",
+    "workbox-routing": "^6.5.3",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "rollpkg": "^0.5.7",
+    "typescript": "^4.6.4"
+  }
+}

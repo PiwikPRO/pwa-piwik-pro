@@ -1,0 +1,10 @@
+export const EVENT_ACTIONS = {
+  APP_INSTALL: 'INSTALL',
+  INTERNET_CONNECTION_ONLINE: 'OnLine',
+  INTERNET_CONNECTION_OFFLINE: 'OffLine',
+}
+
+export const EVENT_CATEGORIES = {
+  INTERNET_CONNECTION: 'Internet connection',
+  APP: 'App'
+}
